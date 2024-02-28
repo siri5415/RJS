@@ -1,0 +1,97 @@
+Folder structure :
+~~~~~~~~~~~~~~~~~~
+     --> /node_modules : all your npm libraries and dependencies will be there
+
+     --> /src : write all the code
+
+     --> /public : contains all the resources that are supposed to transferred to the client
+
+                    e.g. index.html
+
+     --> package.json : metadata of the application
+                             --> name of the project
+                             --> version
+                             --> author
+                             --> script to execute for bulid / dev / testing / etc
+                             -->Lists of dependencies and their version
+
+                             
+     --> package-lock.json : track the versions of each and every library used in the project
+
+     --> .gitignore :  ignores the files and folders mentoined here from git version tracking
+
+     --> Readme : contains information about the project in markdown format
+
+
+     //components in react :
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+     -->smallest possible parts of the web page.
+     -->can contain logic and a part of UI
+     -->Each component will have its own lifecycle
+     -->you can reuse the components
+     -->components are modular
+
+   
+      //Types of components in react :
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+        (1) class based components / smart components
+              -->UI + Logic 
+        (2) function based components / dumb components ->v16.8.0
+              -->UI 
+    
+    React : v16.8.0 owards functional components have also become smart
+    ~~~~~~
+      -->Hooks: function components can process the logic along with providing the UI
+      ~~~~~~~~~~
+       --> very Lightweight : we can bring in the functionality which is required and we can ignore whatever is not needed.
+       ~~~~~~~~~~~~~~~~~~~~~
+
+           Nesting of the component:
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+         -->App component
+            -->user component
+                -->user 1 (User component)
+                -->user 2 (User component)
+                -->user 3 (User component)
+                -->user 4 (User component)
+
+
+*** Props: is used to pass data from parent component to child component
+~~~~~~~~~~
+    -->Props im-mutable
+    -->Flow of data is uni-directional
+
+
+-->There are 2 ways to pass data from parent component to child component
+     (1) You can pass the data bewteen the HTML page
+     (2) You can pass the data as an attribute  of an HTML tags.
+
+Props with functional components:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*** States: to store manipulate the local data of a component.
+~~~~~~~~~~~~
+            --->Will be declared inside a component
+            --->It is a mutable.
+            --->How to update the state:
+            (1) directly assign the values to the property of state.
+            (2) this will not reflect the change in the UI
+
+
+Life cycle of a Componets:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(1) Mounting a component
+  -->Methods
+
+(2)Updating a component
+  -->Methods
+
+(3)Un-Mounting a component
+   -->Methods
+
+
+(function() {
+
+     ///self executing code in JS
+})()

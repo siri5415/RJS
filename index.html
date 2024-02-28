@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple React App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js" crossorigin></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js" crossorigin></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js" crossorigin></script>
+</head>
+<body>
+    <h1>Welcome to my first react application</h1>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        /*
+           (1) create a react component
+
+           (2) render the react component under the Html elements with id="root"
+
+           JSX:
+               ->Js:Javascript
+               ->Jsx: JS + HTML
+        */
+ 
+                   
+        // (1) create a react Component
+        class Header extends React.Component{
+
+            render(){
+               return(
+                <h2>Simple React App</h2>
+               )
+            }
+        }
+
+        // (2) render the react component under the Html elements with id="root"
+        ReactDOM.render(
+            <Header/>,
+            document.getElementById('root')
+        )
+    </script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/// Form handling in react
+
+
+//Form:
+   ->It is used to capture user input
+   ->Fields where user can specify the interactions
+   ->Form can be submitted
+
+
+   ->Multi page application
+       -->On form submit, the page reloads
+
+  ->Single page application
+      -->On from submit, no reloads
+
+
+App.js
+Index.js
+/components
+    ->Login Components
+Login Form:
+~~~~~~~~~~~~
+     ->Username
+     ->Password
+
+        ->submit
+        ->Clear
+
+
+TODO App:
+~~~~~~~~~~
+npx create-react-app todo-app
+cd todo-app
+npm start
+
+App.js
+    functional component  -->Class based component
+
+
+   --> High order component
+   ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+To apply the styles to a react Component:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(1) Write an inline styles (writing the styles on the HTML elements itself)
+(2) Write an internal styles object (creating a seperate styles object and then passing it to the elememt)
+(3)External styles Create a seperate CSS file and import and  use the CSS classes whenever required
+     ->Class Selector
+     ->Id Selector
+     ->Name Selector
+     ->Universal Selector
+     ->Grouped Selector
+     ->pseudo Selector
+
+-->Reuse the styles
+-->Easy to maintal
+-->easy to change
+
+
+-->Include Boostrap
+~~~~~~~~~~~~~~~~~~~
+  npm install Boostrap --save
+  make the some changes in the index.js
+
+     Navigation:
+     ~~~~~~~~~~~~
+     -->Login -->Homepage
+                    Logout --->Login
+
+
+
+
+
+Routing:
+~~~~~~~~
+
+http://localhost:3000
+
+Login page ---> http://localhost:3000/Login
+
+Home page ---> http://localhost:3000/Home
+
+Products page ---> http://localhost:3000/Products
+
+Ex: amazon
+~~~
+https://www.google.com/search?gs_ssp=eJzj4tDP1TfITc9OV2A0YHRg8GJLzE2sys8DAELoBhw&q=amazon&oq=ama&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYxwEYsQMY0QMYgAQyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIYCAIQLhhDGIMBGMcBGLEDGNEDGIAEGIoFMg0IAxAAGIMBGLEDGIAEMg0IBBAAGIMBGLEDGIAEMg0IBRAAGIMBGLEDGIAEMgYIBhBFGDwyBggHEAUYQNIBCDI3NzNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+<protocaol>://<domain>:<port>/routes?<key>=<value>&<key>=<value>&<key>=<value>
+
+
+
+React-Roter-Dom:
+~~~~~~~~~~~~~~~~
+npm i react-router-dom --save
+
+Following changes:
+~~~~~~~~~~~~~~~~~~
+-->new Router.js file 
+     -->Mapping of rotes with components
+-->restructuring the components
+        /components folder
+           /Auth folder
+                 -->Login
+                 -->Logout
+           /Error folder
+                -->Notfound.js
+           /Layout folder
+                -->Header.js
+                -->Footer.js
+                -->Home.js
+                -->Products.js
+                -->Product.js
+                -->Manufacturer.js
+                -->Contact.js
