@@ -95,3 +95,4 @@ Life cycle of a Componets:
 
      ///self executing code in JS
 })()
+

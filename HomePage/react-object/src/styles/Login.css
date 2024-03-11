@@ -1,0 +1,11 @@
+.input-label {
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    text-align: right;
+}
+.input-filed{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}

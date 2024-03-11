@@ -1,27 +1,27 @@
 Front End:
+~~~~~~~~~~
 
-```
    pre-requisites to learn ReactJs
    ->HTML : Provides a structure to the web page
    ->CSS : Provides styles to the web page
    ->Javascript : Provides interactivity to the web page
 
 ReactJs
-
+~~~~~~~~
 HTML : Structure to web page
 ~~~~~~~
  ->Lifeless/colourless/ not attractve
 
  CSS styles:
-```
+~~~~~~~~~~~~~
 
 ->Inline styles
 ->Internal styles
 ->External styles
 
 Javascript:
+~~~~~~~~~~~~~
 
-```
 -> Have some validation on the browser, when users send  data to the server
 
  ->ES5 ---> ES6 (ES2015) --->ES7
@@ -39,8 +39,8 @@ Others:
 
 
 
-    ///React JS
-    ~~~~~~~~~~
+ ///React JS
+~~~~~~~~~~~~
     ->Fronted Library
     ->Single page application (SPAs)
     ->Open source
@@ -63,18 +63,18 @@ Others:
 
 
 Library vs FrameWork:
-```
+~~~~~~~~~~~~~~~~~~~~~
 
 Library:
+~~~~~~~~
 
-```
 ->set of functions
 ->You can attach a library to an existing application
 ->Library cannot run on its own,it needs a framework to run
 ->React is a Library
 
 ->Framework:
-```
+~~~~~~~~~~~~~
 
 ->Libraries + an envirolment to run those libraries
 ->You have to bulid the application according to the Framework
@@ -82,8 +82,8 @@ Library:
 ->Angular is a Framework
 
 A React Application:
+~~~~~~~~~~~~~~~~~~~~
 
-```
 (1) you have an existing HTML page ---> You can add reactJS in this web page.
 
 (2) You can run  ReactJs is an node environment and bulid your application
@@ -106,7 +106,7 @@ Javascript Object Notation
     ->MSA uses it as a standard
 
 Multi-page Application:
-```
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 \*\* In multi-page application each time you click on a link or interact with the application, a new page is downloaded from the server and then rendered in the web browsers.
 
@@ -117,8 +117,8 @@ Multi-page Application:
 \*\* A brand new page with its own static content is served when a user clicks any button.
 
 Single-page Application:
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-```
 ** A single-page application is an application that works inside a browser and does not require page reloading during use.
 
 ** Instead of serving a brand new page to the user, SPA swaps out the old content for new in case of any user interaction.
@@ -129,7 +129,7 @@ Single-page Application:
 
 
 ///MVC Patterns:
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 M - Model - which deals with the data flowing in the application
 
@@ -142,10 +142,10 @@ C - Controlled - which deals with the logic to be executed for ever action
 Front End(FE): is a view
 ~~~~~~~~~~~~~~~
      ->ReactJS
-Back End(BE): is a controller
+Back End(BE) : is a controller
 ~~~~~~~~~~~~~~
 
-Database (DB): is a  model
+Database (DB) : is a  model
 ~~~~~~~~~~~~~~~
 
 
@@ -231,8 +231,8 @@ DOM: Document object model
 ->frequently changing the content of a DOM is a costly process(processing and resource consumption)
    -> why ? because whenever you change the contents of a DOM,entire DOM has to be re-rendered
 
-   -->Virual DOM:
-   ~~~~~~~~~~~~~~
+-->Virual DOM:
+~~~~~~~~~~~~~~
    -->react app loads : react will create an in-memory copy of the DOM,this copy is know as virual DOM.
    -->react will not immeadiatly  change the DOM
    -->rather react will make that change to the virual DOM (easy AND fast to change)
@@ -241,7 +241,6 @@ DOM: Document object model
    -->thus savings huge on the DOM updation process
 
 (1)Adding ReactJs to an existing web page:
-
 (2) create-react-app:
  --> It is a utility
  --> to create and run react applications in a  NodeJs environment
@@ -272,3 +271,4 @@ how many operators are avaliable
 languages specific functionalities and concepts
 version +1 previous of the languages
 how to execute and see the output
+

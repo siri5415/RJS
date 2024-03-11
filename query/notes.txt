@@ -1,0 +1,27 @@
+/// Query parameters:
+~~~~~~~~~~~~~~~~~~~~~~
+--->npx create-react-app "query"
+      ?<key>=<value>&<key>=<value>&<key>=<value>
+
+   react-router-dom
+
+   query-string : help us parse the query params on a react components
+~~~~~~~~~~~~~~~~~~
+   --->npm i query-string react-router-dom --save
+
+->Home page
+    -->Some data in the url with the help of query params
+
+->Filter page
+    -->use query-string to parse the queryparameters
+
+
+
+    //Route /URL  parameters:
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+    https://localhost:3000/products   -->The list of all the products
+
+    https://localhost:3000/products/12345679e5  --->This takes you to products detalis page
+       -->App components
+         
+         -->Child component

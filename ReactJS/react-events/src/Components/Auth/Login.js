@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-
+import '../../Styles/Login.css';
 
 const inputstyles = {
     border:'none',
     borderBottom:'3px solid gray',
     padding:'5px',
     height:'24px',
-    width:'180px',
+    width:'300px',
     background:'beige',
     margin:'10px'
 };
@@ -18,7 +18,7 @@ export default class Login extends Component {
       constructor(){
         super()
         this.state = {
-            username:"abcd@gamil.com",
+            username:"",
             password:""
         };
       }
@@ -68,12 +68,12 @@ export default class Login extends Component {
         <h2>Login Form</h2>
         <br />
         <br />
-        <label>Email:</label>
-        <input style={inputstyles} type="email" value={username} onChange={(e) =>this.onChange(e,'username')}/>
+        <label className='input-label'>Email:</label>
+        <input className="input-field" style={inputstyles} type="email" value={username} onChange={(e) =>this.onChange(e,'username')}/>
         <br />
         <br />
-        <label>Password:</label>
-        <input style={inputstyles} type="password" value={password} onChange={(e) =>this.onChange(e,'password')}/>
+        <label className='input-label'>Password:</label>
+        <input className="input-field" style={inputstyles} type="password" value={password} onChange={(e) =>this.onChange(e,'password')}/>
         <br/>
         <br/>
         <br/>

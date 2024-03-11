@@ -114,3 +114,19 @@ Following changes:
                 -->Product.js
                 -->Manufacturer.js
                 -->Contact.js
+
+
+-->Navigation can be implemented as follows:
+    (1) BrowserRouter
+    (2)Switch
+
+-->JSON-Serve
+fetch data from todo
+
+React is a Library
+~~~~~~~~~~~~~~~~~~~
+-->needs an environment to executes
+-->NodeJs provides a JRE to execute the application written in React
+
+--->Node -->Server -->Listing on part 3000
+     --->respond back with the react application
