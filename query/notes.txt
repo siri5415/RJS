@@ -19,9 +19,114 @@
 
     //Route /URL  parameters:
     ~~~~~~~~~~~~~~~~~~~~~~~~
-    https://localhost:3000/products   -->The list of all the products
+    http://localhost:3000/products   -->The list of all the products
 
-    https://localhost:3000/products/12345679e5  --->This takes you to products detalis page
+    http://localhost:3000/products/12345679e5  --->This takes you to product details page
+    
+    http://localhost:3000/location/IN/products/125896374e4?version=13&year=2024
+
        -->App components
          
          -->Child component
+
+
+--> TODO:
+
+axios: to make api calls
+    -->get the data, once you click on a TODO
+      -->get details about the TODO
+
+      -->Nested Routes:
+      ~~~~~~~~~~~~~~~
+      -->Home page
+      -->Comments
+      -->Cart
+      -->Messenger
+      -->Gallery
+
+           http://localhost:3000/discussions/Motorbikes
+           http://localhost:3000/discussions/Cars
+           http://localhost:3000/discussions/Computers
+           http://localhost:3000/discussions/Mars
+
+      >BreadCrumbs Navigation
+
+
+-->NavLink: to highlight the Routes
+
+API : Application Programming Interface
+
+Zomato Food ordering website:
+
+FE(ReactJs) - Client'sbrowser
+
+BE (NodeJs) -Zomato server
+
+DB (MongoDB) - MongoDB Atlas
+
+
+FE <-----> BE
+
+FE -----> API call to get the data of all the restaurants
+          GET verb on the server
+
+FE -------> API call to save the order details
+            POST verb on server
+
+FE --------> API call to delete the order details
+            DELETE verb on the server
+
+FE --------> API call to update the delivery address
+              PUT verb on the server
+
+CRUD:
+  create : POST
+  Read : GET
+  update : PUT
+  Delete : DELETE
+
+
+  To make API calls :
+     (1) you must have a BE server, which can listen to the requests
+
+      -->use some open source APIs to make API calls and get the response
+          -->https://jsonplaceholder.typicode.com/todos
+
+      -->json-server to have the APIs running in our system(fake API / fake backend / used to test the Fronted)
+          -->prerequistie to have a JSON file from where the data will be server
+         >npm i json-server --save
+
+
+
+     (2) you must have the capability in FE to trigger the API calls
+
+     --> Async calls
+        -->Speed of the internet
+        -->load of the server
+        -->computing capabilities of both client and server
+        -->speed of the Database
+
+
+   axios: 
+   -->It is a libary used to make API calls
+   -->we are going to use it with react Js to make API calls
+
+
+FE(react) <--------> BE (Scala) <----> (DB Driver: Oracle) <-----> DB (oracle)
+
+
+Redux : Redux is an open source / thrid party libary
+      -->It is used to manage the data in your Application
+      -->It is independent library
+      -->It can be added to any Application
+      -->https://redux.js.org/
+      -->It works very well with react Application
+
+
+use it Without react:
+     -->npm projcet
+       >npm init(To create the application)
+       >npm run start(To start the application)
+
+use it with react:
+
