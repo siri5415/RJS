@@ -1,0 +1,34 @@
+{
+    "users" : [
+    {
+          "id": "1",
+          "firstname":"Sireesha",
+          "age": 24,
+          "company": "TCS"
+    },
+        {
+          "id": "2",
+          "firstname":"Ardhala",
+          "age": 23,
+          "company": "Infosys"
+    },
+    {
+          "id": "3",
+          "firstname":"Siriha",
+          "age": 22,
+          "company": "Delottie"
+    },
+    {
+          "id": "4",
+          "firstname":"Siri",
+          "age": 21,
+          "company": "Accenture"
+    },
+        {
+          "id": "5",
+          "firstname":"Siree",
+          "age": 20,
+          "company": "Wipro"
+    }
+]
+}

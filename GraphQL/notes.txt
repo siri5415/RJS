@@ -1,0 +1,116 @@
+
+ASync nature of Javascript
+
+lets you handle multiple promises
+
+
+Rest ---> Over fetching or under fetching
+  http://sirisha-siri.com/login
+  http://sirisha-siri.com/books
+  http://sirisha-siri.com/authors
+  http://sirisha-siri.com/price
+
+
+GraphQL : ----> clent instruct the server to provide the dat needed.
+
+  http://sirisha-siri.com/GraphQL
+
+{
+    username,
+    password
+}
+{
+    books,
+    authors,
+    prices
+}
+
+concepts in GraphQL:
+
+(1) Type system : enforce type safety in the code
+
+    -->Type safety: 
+    ~~~~~~~~~~~~~~~
+
+    vae age : number = 20;
+
+    age = "siri"; //Error at the compile time for most of the languages
+
+    in Javascript : 
+    var age = 23;
+    age = "sirisha"; //fine in Javascript
+
+    (2) Data types in GraphQL:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    --> Type Modifier
+    --> List Modifier
+
+    (3) Schema in GraphQL:
+    ~~~~~~~~~~~~~~~~~~~~~~
+
+NodeJS server:
+~~~~~~~~~~~~~~
+
+   --> NodeJS Installation (https://NodeJS.org/en/download/)
+        -->node js (JRE)
+        -->npm  (node package manager,helps to download packages from npmjs.com)
+        -->in-built packages
+
+   -->verify nodejs Installation
+        > node -v
+
+   --> create a new nodejs application 
+        > npm init
+
+     package.json(metadata of the application)
+     index.js (entry point nof the application)
+
+
+    -->install the required packages:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        > npm i Express Express-GraphQL GraphIQL GraphQL Loadash Nodemon Axios json-server
+
+
+
+
+NodeJS:
+~~~~~~
+-->all the code is origanised in packages
+-->3 types of packages
+   (1) Inbuilt packages(already got installed with the nodejs Installation)
+   (2)user defined packages(code which we are going to write)
+   (3)nodejs.com (nodejs package register)
+       -->Express : Middleware
+       -->Express-GraphQL
+       -->GraphIQL
+       -->GraphQL
+       -->Loadash : (pre-compiled library of the utility functions)
+       -->nodemon: to automatically restart my server in dev mode while development
+       -->Axios: to make API calls
+       -->json-server : to mimic the APIs
+
+        > npm i Express Express-GraphQL GraphIQL GraphQL Loadash Nodemon Axios json-server
+
+     -->node_modulers: it is the place where all the packages and dependencies of the packages get installed
+     -->package-lock.json : It is used to track the version of the packages installed
+
+
+
+lets take the example of user:
+   json-server : run the json-server to have the CRUD APIs on the db.json file
+      -->CRUD APIs
+         -->Create
+         -->Read
+         -->Update
+         -->Delete
+    -->db.json (users data)
+
+
+    json-server  --watch db.json
+
+
+
+
+form handling ---> we capture the data from the user
+                 ---> Invoke the graphQL endpoint with the data
